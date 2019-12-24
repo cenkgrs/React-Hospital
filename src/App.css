@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.top-panel {
+  color: #d3d3d3;
+  padding: 0 10px;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  border-bottom: 1px white inset;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 12px;
+  width: 100%;
+}
+.infos li {
+  display: inline;
+  padding: 5px;
+  margin-right: 5px;
+}
+.nav {
+  background: #34495e;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+.nav-bar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-header {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+.nav-header:hover {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-ul li {
+  color: #d3d3d3;
+  display: inline;
+  border-left: 2px solid;
+  padding: 15px;
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-ul li a {
+  text-decoration: none;
+  color: #d3d3d3;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-ul li a:hover {
+  color: #c4c4c4;
+  padding-right: 30px;
+  transition: 1s;
+}
+.search-area {
+  background-color: #34495e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-area li {
+  display: inline;
+  color: #d3d3d3;
+  padding: 0 5px;
+}
+.search-button {
+  background: none;
+  outline: none;
+  border: none;
+  background: #34495e;
+  color: #d3d3d3;
+}
+
+.form-control {
+  width: 50%;
+  display: inline;
 }
