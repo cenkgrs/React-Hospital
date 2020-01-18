@@ -3,34 +3,43 @@ import "./Nav.css";
 
 function App() {
   return (
-    <section className="section-120 nav">
-      <div className="container">
+    <section className="section-120 nav" style={{ border: "none" }}>
+      <div className="container-fluid" style={{ width: "80%" }}>
         <div className="top-panel">
           <div className="row">
             <div className="col-lg-12">
-              <div className="col-lg-6 hours" style={{ float: "left" }}>
+              <div className="col-lg-5 hours" style={{ float: "left" }}>
                 <span>
                   <i className="far fa-clock"></i> Çalışma Saatlerimiz: Hafta
                   içi: 09-18
                 </span>
               </div>
-              <div className="col-lg-6 infos" style={{ float: "left" }}>
+              <div className="col-lg-7 infos">
                 <ul>
                   <li>
                     <span>
-                      <i className="far fa-envelope"></i>
+                      <i
+                        className="far fa-envelope"
+                        style={{ marginRight: "10px" }}
+                      ></i>
                     </span>
                     info@dentalhospital.com.tr
                   </li>
                   <li>
                     <span>
-                      <i className="fas fa-phone"></i>
+                      <i
+                        className="fas fa-phone"
+                        style={{ marginRight: "10px" }}
+                      ></i>
                     </span>
                     +90 212 000 00 00
                   </li>
                   <li>
                     <span>
-                      <i className="fab fa-whatsapp"></i>
+                      <i
+                        className="fab fa-whatsapp"
+                        style={{ marginRight: "10px" }}
+                      ></i>
                     </span>
                     +90 539 000 00 00
                   </li>
@@ -67,7 +76,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3" style={{ float: "left" }}>
+            <div className="col-lg-3" style={{ float: "right" }}>
               <div className="search-area">
                 <ul>
                   <li>
