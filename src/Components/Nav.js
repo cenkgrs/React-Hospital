@@ -1,5 +1,9 @@
 import React from "react";
-import "./Nav.css";
+import "../css/Nav.css";
+
+//import Docs from "./docs/docs";
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -51,16 +55,20 @@ function App() {
         <div className="container-fluid nav-bar">
           <div className="row">
             <div className="col-lg-2">
-              <a href="#">
-                <h3 className="nav-header" style={{ float: "left" }}>
-                  Hospital Dent
-                </h3>
-              </a>
+              <Router>
+                <Link to="/">
+                  <h3 className="nav-header" style={{ float: "left" }}>
+                    Hospital Dent
+                  </h3>
+                </Link>
+              </Router>
             </div>
             <div className="col-lg-7">
               <ul className="nav-ul">
                 <li>
-                  <a href="#">Hekimlerimiz</a>
+                  <Router>
+                    <Link to="/docs"> Hekimlerimiz </Link>
+                  </Router>
                 </li>
                 <li>
                   <a href="#">Online Randevu</a>
@@ -99,6 +107,14 @@ function App() {
         </div>
       </div>
     </section>
+  );
+}
+
+function Docs() {
+  return (
+    <div>
+      <h2>Docs</h2>
+    </div>
   );
 }
 
