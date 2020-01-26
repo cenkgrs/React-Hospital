@@ -1,0 +1,35 @@
+.ist {
+  background-image: url(../img/hs1.jpg);
+  border: 4px solid black;
+  max-width: 33%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.ank {
+  background-image: url(../img/hs3.jpg);
+  border: 4px solid black;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.izm {
+  background-image: url(../img/hf3.jpg);
+  border: 4px solid black;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}

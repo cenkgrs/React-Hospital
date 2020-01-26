@@ -77,7 +77,9 @@ function App() {
                   <a href="#">Hizmetlerimiz</a>
                 </li>
                 <li>
-                  <a href="#">Hakkımızda</a>
+                  <Router>
+                    <Link to="/about">Hakkımızda</Link>
+                  </Router>
                 </li>
                 <li>
                   <a href="#">İletişim</a>
